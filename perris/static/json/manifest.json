@@ -1,0 +1,46 @@
+
+ {
+  "name": "#MisPerris",
+  "short_name": "#MisPerris",
+  "description": "Bienvenid@s a #MisPerris pagina enfocada en la ayuda a perros callejeros, buscandoles familia y un hogar",
+  "background_color": "#2B2B2B",
+  "theme_color": "#85d4b7",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./index.html",
+  "scope": "./",
+  "lang": "es-cl",
+  "icons": [
+    {
+      "src": "icono/icon-128.png",
+      "sizes": "128x85",
+      "type": "image/png"
+    },
+    {
+        "src": "icono/icon-144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+    },
+    {
+        "src": "icono/icon-152.png",
+        "sizes": "152x101",
+        "type": "image/png"
+    },
+    {
+        "src": "icono/icon-192.png",
+        "sizes": "192x128",
+        "type": "image/png"
+    },
+    {
+        "src": "icono/icon-256.png",
+        "sizes": "256x170",
+        "type": "image/png"
+    }
+  ]
+
+
+
+  
+
+
+}

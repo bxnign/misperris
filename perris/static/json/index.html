@@ -1,0 +1,245 @@
+{% extends 'perris/base.html' %}
+{% block content %} 
+{% load staticfiles %}
+    
+        <div id="c-slider">
+                <div id="slider">
+                    <section>
+                    
+                    <img src="{% static 'img/Imagenes/Adoptados/Apolo.jpg' %}" alt="apolo">
+                     <div class="textocarrusel">
+                         <p>"Con la llegada de apolo"</p>
+                          <p>nuestro hogar se ah llenado</p>
+                           <p>de mucha alegria"</p>
+                     </div>
+                        
+                   
+                    </section>
+                   
+                    <section>
+                    <img src="{% static 'img/Imagenes/Adoptados/Duque.jpg' %}" alt="duque" >
+                    
+                   <div class="textocarrusel2">
+                         <p>"Duque ah sido un</p>
+                          <p>gran compañero de viaje</p>
+                           <p>y de vida"</p>
+                     </div>
+                    </section>
+                    
+                    <section>
+                    <img src="{% static 'img/Imagenes/Adoptados/Tom.jpg' %}"   alt="tom">
+                   <div class="textocarrusel3">
+                         <p>"Estamos felices</p>
+                          <p>de tener a tom en casa.Es</p>
+                           <p>"un super fiel compañero"</p>
+                     </div>
+                    </section>
+                    
+                </div>
+                <div id="btn-previo">&#60;</div>
+                <div id="btn-siguiente">&#62;</div>
+            </div>
+            
+            
+<div class="contenido-cabecera2">
+           
+           
+            <div class="cabecera2-redes">
+            <div class="item-redes">
+                <div class="icon-redes">
+                    <span class=" lnr icon-facebook-with-circle  "></span>
+                </div>
+            </div>
+            <div class="item-redes">
+                <div class="icon-redes">
+                    <span class=" lnr icon-google-with-circle  "></span>
+                </div>
+            </div>
+            <div class="item-redes">
+                <div class="icon-redes">
+                    <span class=" lnr icon-instagram-with-circle  "></span>
+                </div>
+            </div>
+            <div class="item-redes">
+                <div class="icon-redes-mail">
+                    <span class=" lnr icon-mail  "></span>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+
+    <main>
+        <div class="contenido2-rescate">
+            <h1>RESCATE</h1>
+            <H4>ETAPA UNO</H4>
+            <h2>___</h2>
+            <p>Rescatamos perros en situacion de peligro y/o abandono. Los rehabilitamos
+                y los preparamos para buscarles un hogar
+            </p>
+            <div class="contenido2-imagen">
+                    <img src="{% static 'img/rescate.jpg' %}" alt="rescate">
+            </div>
+        </div>
+        <div class="contenido2-crowfunding">
+            <div class="contenido2-imagen2">
+                    <img src="{% static 'img/crowfunding.jpg' %}" alt="crowfunding">
+            </div>
+            <h1>CROWFUNDING</h1>
+            <h4>FINANCIAMIENTO</h4>
+            <h2>___</h2>
+            <p>Sigue nuestras redes sociales para informate acerca de las diversas campañas y 
+                actividades que realizamos para obtener financiamiento para seguir ayudando
+            </p>
+            
+           
+                
+           <div class="contenedor2-boton">
+                    <div class="button-campañas">
+                            <a href="#form">CAMPAÑAS</a>
+                        </div>
+            </div> 
+            
+            
+        </div>
+        
+          
+    </main>
+
+    <div class="contenido3-galeria">
+        <div class="galeria-imagenes">
+<div class="seccion1">
+        <li > <a href="#img1"> <img src="{% static 'img/Imagenes/rescatados/Oso_tn.jpg' %}" alt="oso"> </a>  </li> 
+        <li ><a href="#img2"> <img src="{% static 'img/Imagenes/rescatados/Maya_tn.jpg' %}" alt="maya"> </a>  </li> 
+        <li ><a href="#img3"> <img src="{% static 'img/Imagenes/rescatados/Wifi_tn.jpg' %}" alt="wifi"> </a>        </li>  
+</div>
+
+<div class="seccion2">
+        <li ><a href="#img4"> <img src="{% static 'img/Imagenes/rescatados/Chocolate_tn.jpg' %}" alt="chocolate"> </a> </li> 
+        <li >  <a href="#img5"> <img src="{% static 'img/Imagenes/rescatados/Pexel_tn.jpg' %}" alt="pexel"> </a>   </li> 
+</div>
+
+<div class="seccion3">
+        <li ><a href="#img6"> <img src="{% static 'img/Imagenes/rescatados/Bigotes_tn.jpg' %}" alt="bigotes"> </a>  </li> 
+        <li ><a href="#img7"> <img src="{% static 'img/Imagenes/rescatados/Luna_tn.jpg' %}" alt="luna"> </a>  </li>
+</div>
+        </div>
+    
+
+    <div class="modal" id="img1">
+        <h3>Oso</h3>
+        <div class="imagen">
+            <a href="#img5">&#60;</a>
+            <a href="#img2"><img src="{% static 'img/Imagenes/rescatados/Oso.jpg' %}" alt="oso"></a>
+            <a href="#img2">></a>
+        </div>
+        <div class="cerrar">
+                <a href="">X</a>
+        </div>
+        <div class="res">
+            Pelaje negro, perro tranquilo y obediente
+        </div>
+    </div>
+
+    <div class="modal" id="img2">
+            <h3>Maya</h3>
+            <div class="imagen">
+                <a href="#img1">&#60;</a>
+                <a href="#img3"><img src="{% static 'img/Imagenes/rescatados/Maya.jpg' %}" alt="maya"></a>
+                <a href="#img3">></a>
+            </div>
+            <div class="cerrar">
+                    <a href="">X</a>
+            </div>
+            <div class="res">
+            cachorra de app 6 meses color cafe, jugetona y adorable
+        </div>
+        </div>
+
+        <div class="modal" id="img3">
+                <h3>Wifi</h3>
+                <div class="imagen">
+                    <a href="#img2">&#60;</a>
+                    <a href="#img4"><img src="{% static 'img/Imagenes/rescatados/Wifi.jpg' %}" alt="wifi"></a>
+                    <a href="#img4">></a>
+                </div>
+                <div class="cerrar">
+                        <a href="">x</a>
+                </div>
+                <div class="res">
+            cachorro jugeton de 2 años busca familia que lo quiera
+        </div>
+            </div>
+
+            <div class="modal" id="img4">
+                    <h3>Chocolate</h3>
+                    <div class="imagen">
+                        <a href="#img3">&#60;</a>
+                        <a href="#img5"><img src="{% static 'img/Imagenes/rescatados/Chocolate.jpg' %}" alt="chocolate"></a>
+                        <a href="#img5">></a>
+                    </div>
+                    <div class="cerrar">
+                            <a href="">X</a>
+                    </div>
+                    <div class="res">
+            Perro adulto , pelaje cafe perezoso y malhumorado
+        </div>
+                </div>
+
+                <div class="modal" id="img5">
+                        <h3>Pexel</h3>
+                        <div class="imagen">
+                            <a href="#img4">&#60;</a>
+                            <a href="#img6"><img src="{% static 'img/Imagenes/rescatados/Pexel.jpg' %}" alt=""></a>
+                            <a href="#img6">></a>
+                        </div>
+                        <div class="cerrar">
+                                <a href="">X</a>
+                        </div>
+                        <div class="res">
+           cachorrito de un año raza bichon frise, pelaje blanco 
+        </div>
+                    </div>
+
+                    <div class="modal" id="img6">
+                            <h3>Bigotes</h3>
+                            <div class="imagen">
+                                <a href="#img5">&#60;</a>
+                                <a href="#img7"><img src="{% static 'img/Imagenes/rescatados/Bigotes.jpg' %}" alt="bigotes"></a>
+                                <a href="#img7">></a>
+                            </div>
+                            <div class="cerrar">
+                                    <a href="">X</a>
+                            </div>
+                            <div class="res">
+            perro adulto de 3 años pelaje cafe , fiel y obediente
+        </div>
+                        </div>
+
+                        <div class="modal" id="img7">
+                                <h3>Luna</h3>
+                                <div class="imagen">
+                                    <a href="#img6">&#60;</a>
+                                    <a href="#img1"><img src="{% static 'img/Imagenes/rescatados/Luna.jpg' %}" alt="luna"></a>
+                                    <a href="#img1">></a>
+                                </div>
+                                <div class="cerrar">
+                                        <a href="">X</a>
+                                </div>
+                                <div class="res">
+            cachorrita de 7 meses , pelaje gris, tierna y jugetona
+                            </div>
+                            </div>
+    <footer>
+        <div class="texto-final">
+                <p>Desarrollo Web y Mobile</p>
+        </div>
+        
+    </footer>
+    <script src="{% static 'js/slider.js' %}"></script>
+    <script src="{% static 'js/script.js' %}"></script>
+    
+    </div>
+    {% endblock %}
